@@ -87,13 +87,13 @@ if __name__ == '__main__':
     
     ## GENERATING REPORT
 
-    print('\n\nGenerating Clinical Report')
+    print('\n\nGenerating Hypothesis Report')
     conversation = list()
     conversation.append({'role': 'system', 'content': open_file('system_03_diagnosis.md')})
     conversation.append({'role': 'user', 'content': notes})
     report, tokens = chatbot(conversation)
     save_file('logs/log_%s_diagnosis.txt' % time(), report)
-    print('\n\nPhysician Report:\n\n%s' % report)
+    print('\n\nHypothesis Report:\n\n%s' % report)
 
     ## CLINICAL EVALUATION
 
