@@ -50,5 +50,43 @@ def chat_print(text):
 
 if __name__ == '__main__':
     openai.api_key = open_file('key_openai.txt').strip()
-    convo = list()
     
+    conversation = list()
+    conversation.append({'role': 'system', 'content': open_file('system_01_intake.txt')})
+    user_messages = list()
+    all_messages = list()
+    print('Describe your symptoms to the intake bot. Type DONE when done.')
+    
+    ## INTAKE PORTION
+    
+    while True:
+        # get user input
+        text = input('\n\nUSER: ').strip()
+        if text == 'DONE':
+            break
+        user_messages.append(text)
+        all_messages.append('PATIENT: %s' % text)
+        conversation.append({'role': 'user', 'content': text})
+        response = chatbot(conversation)
+        conversation.append({'role': 'assistant', 'content': response})
+        all_messages.append('INTAKE: %s' % response)
+    
+    ## CHARTING NOTES
+    
+    print('\n\nGenerating notes...')
+    conversation = list()
+    conversation.append({'role': 'system', 'content': open_file('system_02_prepare_notes.txt')})
+    text_block = '\n\n'.join(all_messages)
+    chat_log = '<<BEGIN PATIENT INTAKE CHAT>>\n\n%s\n\n<<END PATIENT INTAKE CHAT>>' % text_block
+    conversation.append({'role': 'user', 'content': chat_log})
+    notes = chatbot(conversation)
+    print('\n\nNotes version of conversation:\n\n%s' % notes)
+    
+    ## GENERATING REPORT
+
+    print('\n\nGenerating report...')
+    conversation = list()
+    conversation.append({'role': 'system', 'content': open_file('system_03_diagnosis.txt')})
+    conversation.append({'role': 'user', 'content': notes})
+    report = chatbot(conversation)
+    print('\n\nPhysician Report:\n\n%s' % report)
