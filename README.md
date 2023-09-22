@@ -15,3 +15,7 @@ The use of this software is purely for scientific inquiry and should not be used
 By using this software, you acknowledge and agree that you understand this disclaimer and that you use the software at your own risk. If you do not agree with this disclaimer, do not use the software. 
 
 This disclaimer may be updated from time to time, and it is the responsibility of the user to review and comply with the current version of the disclaimer.
+
+# Usage
+
+It's pretty much automatic. Just fire up `chat.py` and it will take you through the whole process. Everything will be saved out to `logs/`

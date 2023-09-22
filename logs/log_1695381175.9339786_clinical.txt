@@ -1,0 +1,22 @@
+## SENSES
+
+SIGHT: Look for any signs of physical discomfort or distress during the episodes. Observe for any involuntary movements, twitching, or changes in facial expression. 
+
+SOUND: Listen for any changes in speech patterns or coherence before, during, and after the episodes. 
+
+TOUCH: Check for any changes in muscle tone or responsiveness during the episodes. 
+
+SMELL: No specific smells are expected to be relevant in this case.
+
+## EXAMINATION
+
+- NEUROLOGICAL EXAM: Assess the patient's cognitive function, motor function, and sensory function. This can help identify any neurological abnormalities that may be causing the episodes. Look for signs of Parkinson's disease, stroke, or other neurological conditions.
+- EEG (ELECTROENCEPHALOGRAM): This test can help identify any abnormal electrical activity in the brain that may be causing the episodes. Look for signs of seizure activity or other abnormalities.
+- MRI OR CT SCAN: These imaging tests can help identify any structural abnormalities in the brain that may be causing the episodes. Look for signs of brain injury, tumors, or other abnormalities.
+
+## INTERVIEW
+
+- EPISODE TRIGGERS: "Have you noticed any patterns or triggers that seem to precede these episodes?"
+- POST-EPISODE SYMPTOMS: "Can you describe in more detail what you feel like after these episodes? Do you experience any physical discomfort or mental confusion?"
+- MEDICAL HISTORY: "Have you had any other neurological symptoms or conditions in the past? Have you ever had seizures or episodes of lost consciousness before?" 
+- CONCUSSION FOLLOW-UP: "Did you have any follow-up care or treatment after your fall and concussion? Did you experience any lingering symptoms?"

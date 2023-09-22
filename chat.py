@@ -52,7 +52,7 @@ if __name__ == '__main__':
     openai.api_key = open_file('key_openai.txt').strip()
     
     conversation = list()
-    conversation.append({'role': 'system', 'content': open_file('system_01_intake.txt')})
+    conversation.append({'role': 'system', 'content': open_file('system_01_intake.md')})
     user_messages = list()
     all_messages = list()
     print('Describe your symptoms to the intake bot. Type DONE when done.')
@@ -61,32 +61,56 @@ if __name__ == '__main__':
     
     while True:
         # get user input
-        text = input('\n\nUSER: ').strip()
+        text = input('\n\nPATIENT: ').strip()
         if text == 'DONE':
             break
         user_messages.append(text)
         all_messages.append('PATIENT: %s' % text)
         conversation.append({'role': 'user', 'content': text})
-        response = chatbot(conversation)
+        response, tokens = chatbot(conversation)
         conversation.append({'role': 'assistant', 'content': response})
         all_messages.append('INTAKE: %s' % response)
+        print('\n\nINTAKE: %s' % response)
     
     ## CHARTING NOTES
     
-    print('\n\nGenerating notes...')
+    print('\n\nGenerating Intake Notes')
     conversation = list()
-    conversation.append({'role': 'system', 'content': open_file('system_02_prepare_notes.txt')})
+    conversation.append({'role': 'system', 'content': open_file('system_02_prepare_notes.md')})
     text_block = '\n\n'.join(all_messages)
     chat_log = '<<BEGIN PATIENT INTAKE CHAT>>\n\n%s\n\n<<END PATIENT INTAKE CHAT>>' % text_block
+    save_file('logs/log_%s_chat.txt' % time(), chat_log)
     conversation.append({'role': 'user', 'content': chat_log})
-    notes = chatbot(conversation)
+    notes, tokens = chatbot(conversation)
     print('\n\nNotes version of conversation:\n\n%s' % notes)
+    save_file('logs/log_%s_notes.txt' % time(), notes)
     
     ## GENERATING REPORT
 
-    print('\n\nGenerating report...')
+    print('\n\nGenerating Clinical Report')
     conversation = list()
-    conversation.append({'role': 'system', 'content': open_file('system_03_diagnosis.txt')})
+    conversation.append({'role': 'system', 'content': open_file('system_03_diagnosis.md')})
     conversation.append({'role': 'user', 'content': notes})
-    report = chatbot(conversation)
+    report, tokens = chatbot(conversation)
+    save_file('logs/log_%s_diagnosis.txt' % time(), report)
     print('\n\nPhysician Report:\n\n%s' % report)
+
+    ## CLINICAL EVALUATION
+
+    print('\n\nPreparing for Clinical Evaluation')
+    conversation = list()
+    conversation.append({'role': 'system', 'content': open_file('system_04_clinical.md')})
+    conversation.append({'role': 'user', 'content': notes})
+    clinical, tokens = chatbot(conversation)
+    save_file('logs/log_%s_clinical.txt' % time(), clinical)
+    print('\n\nClinical Evaluation:\n\n%s' % clinical)
+
+    ## REFERRALS & TESTS
+
+    print('\n\nGenerating Referrals and Tests')
+    conversation = list()
+    conversation.append({'role': 'system', 'content': open_file('system_05_referrals.md')})
+    conversation.append({'role': 'user', 'content': notes})
+    referrals, tokens = chatbot(conversation)
+    save_file('logs/log_%s_referrals.txt' % time(), referrals)
+    print('\n\nReferrals and Tests:\n\n%s' % referrals)

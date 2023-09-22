@@ -1,0 +1,19 @@
+1. TRANSIENT ISCHEMIC ATTACK (TIA): Also known as a mini-stroke, a TIA is a brief episode of neurological dysfunction caused by loss of blood flow in the brain, spinal cord, or retina, without tissue death.
+   - DIFFERENTIALS: Stroke, seizure, syncope, migraine, metabolic disorders.
+   - DEMOGRAPHICS: More common in older adults, particularly those over 60.
+   - SYMPTOMS: Sudden weakness or numbness on one side of the body, confusion, trouble speaking or understanding speech, dizziness, loss of balance or coordination, sudden severe headache.
+   - INDICATORS: Patient's age, episodes of "freezing" or loss of consciousness, confusion and difficulty finding words after episodes.
+   - CONTRAINDICATORS: No reported weakness, numbness, severe headache, or dizziness.
+   - PROGNOSIS: TIAs are often warning signs for future strokes. With proper management, the risk of future stroke can be significantly reduced.
+   - TREATMENT: Lifestyle changes, medications to prevent clotting, and possibly surgery to improve blood flow to the brain.
+   - TESTS: Brain imaging with CT or MRI, carotid ultrasound, echocardiogram, blood tests.
+
+2. EPILEPSY: A neurological disorder in which brain activity becomes abnormal, causing seizures or periods of unusual behavior, sensations, and sometimes loss of awareness.
+   - DIFFERENTIALS: Syncope, panic attacks, transient ischemic attack (TIA), migraines.
+   - DEMOGRAPHICS: Can occur at any age but more common in young children and older adults.
+   - SYMPTOMS: Temporary confusion, staring spell, uncontrollable jerking movements of the arms and legs, loss of consciousness or awareness.
+   - INDICATORS: Episodes of "freezing" or loss of consciousness, confusion after episodes, history of head injury (fall and mild concussion).
+   - CONTRAINDICATORS: No reported jerking movements, no reported triggers.
+   - PROGNOSIS: With proper treatment, most people with epilepsy can have fewer or no seizures.
+   - TREATMENT: Medications, surgery, therapies like vagus nerve stimulation or ketogenic diet.
+   - TESTS: Neurological exam, blood tests, Electroencephalogram (EEG), brain imaging (CT scan, MRI).

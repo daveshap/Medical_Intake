@@ -1,0 +1,31 @@
+<<BEGIN PATIENT INTAKE CHAT>>
+
+PATIENT: my friends say that I sometimes freeze up. for about 20 seconds. For me it's just a blink but everyone is freaking out. I'm in my 80's btw. I just call it a bad senior moment.
+
+INTAKE: I understand your concern. Can you please describe what you're doing or what's happening around you when these "freezing" episodes occur?
+
+PATIENT: well one time it happened right in the middle of talking to a bunch of friends. They say it's not the first time it happened. Oh, I don't know of it's relevant but I had a fall about 8 months ago. Mild concussion.
+
+INTAKE: Thank you for sharing that information. Can you tell me more about the fall you had 8 months ago? Specifically, did you notice these freezing episodes before the fall or did they start happening after the concussion?
+
+PATIENT: can't recall any from before, but these senior moments just started in the last couple of weeks, so I didn't think it was related
+
+INTAKE: I see. It's important to consider all possibilities. Can you tell me more about these episodes? For instance, do you experience any other symptoms before, during, or after these moments, such as dizziness, confusion, or difficulty speaking?
+
+PATIENT: Only a bit confused afterwards, but mostly at why everyone else is upset
+
+INTAKE: Understood. It's important to clarify every detail. During these episodes, do you remain standing or do you feel an urge to sit or lie down? Also, do you remember anything from these episodes or is it like a blank period for you?
+
+PATIENT: A bit out of it, to be honest. I have trouble finding the right words after I snap out of it. But nothing out of the ordinary for a senior moment
+
+INTAKE: Thank you for sharing that. Can you tell me if there's any pattern to these episodes? For example, do they happen more often at a certain time of day, or when you're doing a specific activity?
+
+PATIENT: nothing quite so odd as that nousually middle of the day when I'm most active. I try to keep busy.
+
+INTAKE: That's helpful to know. Do you notice any triggers that might be causing these episodes? For example, do they occur when you're under stress, when you're tired, or after you've consumed certain foods or drinks?
+
+PATIENT: not that I'm aware of no
+
+INTAKE: Thank you for your responses. Lastly, have you noticed any changes in your sleep patterns or quality of sleep around the time these episodes started occurring?
+
+<<END PATIENT INTAKE CHAT>>
