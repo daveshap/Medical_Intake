@@ -19,3 +19,5 @@ As the founder, I have done the initial software development and simulations. Yo
 If you have led major open source projects, especially in AI or medicine, and are passionate about advancing healthcare, please get in touch! I would love to explore working together to ensure this technology progresses safely and for the public good.
 
 Let me know if you would like any additional details on the project and proof of concept. Thanks for your interest!
+
+Discuss here: https://github.com/daveshap/Medical_Intake/discussions/5
