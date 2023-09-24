@@ -2,6 +2,8 @@
 
 Automated pipeline for medical intake, diagnosis, tests, etc. Meant to be used as a clinical aid.
 
+Introductory video here: https://youtu.be/EAger7jOrsA 
+
 # Medical Device Disclaimer
 
 This software, found under this repository and licensed under the MIT license, is an experimental project and is NOT a medical device. It is not intended to be used as a medical device or as a substitute for professional medical advice, diagnosis, or treatment. 
