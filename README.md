@@ -12,11 +12,6 @@ By using this software, you acknowledge and agree that you understand this discl
 
 This disclaimer may be updated from time to time, and it is the responsibility of the user to review and comply with the current version of the disclaimer.
 
-# Usage
-
-It's pretty much automatic. Just fire up `chat.py` and it will take you through the whole process. Everything will be saved out to `logs/`
-
-
 # Symptom Sage Chatbot
 
 Symptom Sage is an interactive chatbot that aids in capturing patient symptoms and generating assessments, facilitating smoother patient-intake processes.
