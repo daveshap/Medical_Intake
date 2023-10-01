@@ -67,4 +67,4 @@ Contributions, bug reports, and feature requests are welcome! Feel free to open 
 
 ## License
 
-Learning Use License Refer to LICENCE for further details 
+Learning Use License Refer to LICENCE for further details. In short I want you to take this, understand how it works, then use the concept to build something new. This was done under retainer and therefore can't be replicable in this exact form.
