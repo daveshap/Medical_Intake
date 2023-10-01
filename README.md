@@ -47,8 +47,12 @@ pip install -r requirements.txt
 
 streamlit run GUI.py
 
+If you are wanting to use local embedded VS store make sure you have a file "embeddings.pkl" - my other repo https://github.com/Gravtas-J/EMBEDATRON3000 can help if you don't have them. Not included for copywrite reasons. 
+
 
 Now, open your web browser and go to `http://localhost:8501` to interact with the Symptom Sage Chatbot.
+
+It can also be accessed over a network with 'http:[your IP]:8501
 
 ## Usage
 
