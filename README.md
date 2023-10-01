@@ -1,9 +1,3 @@
-# Medical Intake Experiment
-
-Automated pipeline for medical intake, diagnosis, tests, etc. Meant to be used as a clinical aid.
-
-Introductory video here: https://youtu.be/EAger7jOrsA 
-
 # Medical Device Disclaimer
 
 This software, found under this repository and licensed under the MIT license, is an experimental project and is NOT a medical device. It is not intended to be used as a medical device or as a substitute for professional medical advice, diagnosis, or treatment. 
@@ -21,3 +15,53 @@ This disclaimer may be updated from time to time, and it is the responsibility o
 # Usage
 
 It's pretty much automatic. Just fire up `chat.py` and it will take you through the whole process. Everything will be saved out to `logs/`
+
+
+# Symptom Sage Chatbot
+
+Symptom Sage is an interactive chatbot that aids in capturing patient symptoms and generating assessments, facilitating smoother patient-intake processes.
+
+## Features
+
+- **Interactive Conversations**: Engage in real-time conversations with the chatbot to describe symptoms.
+- **Assessment Generation**: Receive risk and category assessments based on the provided symptoms.
+- **Report Generation**: Generate a detailed report including hypothesis, clinical assessment guide, and referral recommendations.
+- **Downloadable Outputs**: Download the generated assessments and reports for further use.
+- **User-Friendly Interface**: A web-based interface built with Streamlit for ease of use.
+- **Modular Codebase**: A clean, modular codebase ensuring easy maintenance and updates.
+
+## Installation
+
+1. Clone this repository:
+
+git clone https://github.com/Gravtas-J/symptom-sage-chatbot.git
+cd symptom-sage-chatbot
+
+
+2. Install the required packages:
+
+pip install -r requirements.txt
+
+
+3. Run Streamlit:
+
+streamlit run app.py
+
+
+Now, open your web browser and go to `http://localhost:8501` to interact with the Symptom Sage Chatbot.
+
+## Usage
+
+1. Initiate a conversation by describing the patient's symptoms.
+2. Click on "Generate Assessment" to receive risk and category assessments.
+3. Click on "Generate Report" to receive a detailed report including hypothesis and clinical assessments.
+4. Download the assessments and reports as needed.
+5. Click "Reset Conversation" to start a new session.
+
+## Contributions
+
+Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or create a pull request.
+
+## License
+
+Learning Use License Refer to LICENCE for further details 
