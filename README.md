@@ -29,7 +29,7 @@ Symptom Sage is an interactive chatbot that aids in capturing patient symptoms a
 - **Downloadable Outputs**: Download the generated assessments and reports for further use.
 - **User-Friendly Interface**: A web-based interface built with Streamlit for ease of use.
 - **Modular Codebase**: A clean, modular codebase ensuring easy maintenance and updates.
-
+- **FAISS KB search**:Is able to have hypothesis re-inforced with domain specific information
 ## Installation
 
 1. Clone this repository:
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 3. Run Streamlit:
 
-streamlit run app.py
+streamlit run GUI.py
 
 
 Now, open your web browser and go to `http://localhost:8501` to interact with the Symptom Sage Chatbot.
