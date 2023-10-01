@@ -29,8 +29,12 @@ Symptom Sage is an interactive chatbot that aids in capturing patient symptoms a
 
 1. Clone this repository:
 
+
+
 git clone https://github.com/Gravtas-J/symptom-sage-chatbot.git
 cd symptom-sage-chatbot
+
+
 
 
 2. Install the required packages:
